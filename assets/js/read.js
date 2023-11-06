@@ -3,7 +3,7 @@ const read = document.querySelector(".btn-fetch");
 read.addEventListener('click', () => {
     const xhttp = new XMLHttpRequest();
 
-    xhttp.open("GET", 'http://localhost/actividad4js/assets/json/data.json');
+    xhttp.open("GET", '/json/data.json');
     xhttp.responseType = "json";
     xhttp.send();
 
