@@ -2,7 +2,7 @@
 if (isset($_POST['id']) && !empty($_POST['id'])) {
     $id = $_POST['id'];
 
-    $path = 'assets/json/data.json';
+    $path = '../json/data.json';
     $data = file_get_contents($path);
     $data = json_decode($data, true);
 
