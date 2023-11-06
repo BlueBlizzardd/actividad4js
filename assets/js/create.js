@@ -13,7 +13,7 @@ create.addEventListener('click', (e) => {
         "initiator": document.getElementById('initiator').value,
     };
 
-    xhttp.open("POST", '/php/create.php');
+    xhttp.open("POST", 'assets/php/create.php');
     xhttp.setRequestHeader("Content-type", "application/json");
 
     xhttp.onload = function() {

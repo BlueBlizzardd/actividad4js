@@ -2,7 +2,7 @@
 $post = file_get_contents('php://input');
 $post = json_decode($post, true);
 
-$path = '/json/data.json';
+$path = 'assets/json/data.json';
 $data = file_get_contents($path);
 $data = json_decode($data, true);
 
