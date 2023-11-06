@@ -14,7 +14,7 @@ update.addEventListener('click', (e) => {
         "initiator": document.getElementById('initiator').value,
     };
 
-    xhttp.open("POST", '../php/update.php');
+    xhttp.open("POST", '/php/update.php');
     xhttp.setRequestHeader("Content-type", "application/json");
 
     xhttp.onload = function() {

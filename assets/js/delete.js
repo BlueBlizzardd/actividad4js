@@ -7,7 +7,7 @@ del.addEventListener('click', (e) => {
     const xhttp = new XMLHttpRequest();
     const params = `id=${document.getElementById("id").value}`;
 
-    xhttp.open("POST", '../php/delete.php');
+    xhttp.open("POST", '/php/delete.php');
     xhttp.setRequestHeader('content-type', 'application/x-www-form-urlencoded');
 
     xhttp.onload = function() {
