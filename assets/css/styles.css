@@ -1,0 +1,50 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.primary-header {
+    padding: 0.5em;
+}
+
+.primary-navigation {
+    padding: 0.5em;
+}
+
+#table {
+    margin-inline: auto;
+    margin-bottom: 0.5em;
+}
+
+#table, #table > tr {
+    border: 2px solid black;
+}
+
+.btn {
+    color: whitesmoke;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-reveal {
+    background-color:hsl(180, 86%, 16%);
+}
+
+.btn-create {
+    background-color: hsl(203, 86%, 33%);
+}
+
+.btn-fetch {
+    background-color: hsl(290, 86%, 33%);
+}
+
+.btn-update {
+    background-color:hsl(113, 86%, 33%);
+}
+
+.btn-delete {
+    background-color: hsl(354, 86%, 33%);
+}

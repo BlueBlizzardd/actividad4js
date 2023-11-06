@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Actividades</title>
+    <link rel="stylesheet" href="http://localhost/actividad4js/assets/css/styles.css">
+    <script src="http://localhost/actividad4js/assets/js/read.js" defer></script>
+    <script src="http://localhost/actividad4js/assets/js/create.js" defer></script>
+</head>
+
+<body>
+    <header class="primary-header">
+        <nav class="primary-navigation">
+            <div class="flex">
+                <button type="button" class="btn btn-reveal">Crear Actividades</a></button>
+                <button type="button" class="btn btn-fetch">Mostrar Actividades</button>
+                <a href="update.html" class="btn btn-update">Modificar Actividades</a>
+                <a href="delete.html" class="btn btn-delete">Eliminar Actividades</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="response"></div>
+
+    <form id="createForm">
+        <label for="activity">Actividad:</label>
+        <input type="text" id="activity" name="activity">
+        <label for="startDate">Fecha de Inicio:</label>
+        <input type="date" id="startDate" name="startDate">
+        <label for="endDate">Fecha de Conclusion:</label>
+        <input type="date" id="endDate" name="endDate">
+        <label for="totalDays">Duracion (en Dias):</label>
+        <input type="number" id="totalDays" name="totalDays">
+        <label for="initiator">Iniciador:</label>
+        <input type="text" id="initiator" name="initiator">
+        <button type="submit" class="btn btn-create">Crear</button>
+    </form>
+
+</body>
+
+</html>

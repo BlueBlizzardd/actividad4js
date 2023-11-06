@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar Actividades</title>
+    <link rel="stylesheet" href="http://localhost/actividad4js/assets/css/styles.css">
+    <script src="http://localhost/actividad4js/assets/js/read.js" defer></script>
+    <script src="http://localhost/actividad4js/assets/js/delete.js" defer></script>
+</head>
+
+<body>
+    <header class="primary-header">
+        <nav class="primary-navigation">
+            <div class="flex">
+                <a href="index.html" class="btn btn-create">Crear Actividades</a>
+                <button type="button" class="btn btn-fetch">Mostrar Actividades</button>
+                <a href="update.html" class="btn btn-update">Modificar Actividades</a>
+                <button type="button" class="btn btn-reveal">Eliminar Actividades</button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="response"></div>
+
+    <form id="deleteForm">
+        <label for="id">ID de Actividad:</label>
+        <input type="number" id="id" name="id">
+        <button type="submit" class="btn btn-delete">Eliminar</button>
+    </form>
+</body>
+
+</html>
