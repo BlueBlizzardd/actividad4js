@@ -10,12 +10,12 @@ $post = array("id" => count($data) + 1) + $post;
 
 array_push($data, $post);
 
+echo json_encode($post);
+
 $data = json_encode($data, JSON_PRETTY_PRINT);
 
 $fp = fopen($path, 'w');
 fwrite($fp, $data);
 fclose($fp);
-
-echo $data;
 
 ?>

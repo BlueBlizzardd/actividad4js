@@ -6,7 +6,7 @@ update.addEventListener('click', (e) => {
 
     const xhttp = new XMLHttpRequest();
     const params = {
-        "id": document.getElementById('id').value,
+        "id": parseInt(document.getElementById('id').value),
         "activity": document.getElementById('activity').value,
         "startDate": document.getElementById('startDate').value,
         "endDate": document.getElementById('endDate').value,
